@@ -1,0 +1,9 @@
+pandas
+numpy
+python-dateutil
+scikit-learn
+matplotlib
+sqlalchemy
+psycopg2-binary
+python-dotenv
+pyarrow

@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:15
+    container_name: agri_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: agri_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - agri_pgdata:/var/lib/postgresql/data
+
+volumes:
+  agri_pgdata:
