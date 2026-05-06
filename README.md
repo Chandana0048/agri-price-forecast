@@ -1,3 +1,7 @@
+uvicorn backend.app.main:app --reload --port 8000
+
+
+
 📊 Agri Price Forecast
 
 Quantile ML-based Forecasting System for Agri-Horticultural Commodities
